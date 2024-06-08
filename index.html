@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notNotion -  Daily Quiz To Test Your JavaScript Knowledge!</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Javascript Quiz App</p>
+                <p class="subtitle">Daily Quiz To Test Your JavaScript Knowledge!</p>
+            </div>
+
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button onclick="document.location.reload(true)">Try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. Which of the following is a correct way to define a variable in JavaScript?.</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="">var myVariable;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label for="">variable myVariable;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label for="">dim myVariable;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D">
+                        <label for="">let myVariable</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>2. Which method is used to convert a string into an integer in JavaScript?.</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="">parseInt()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label for="">toInteger()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C">
+                        <label for="">convertToInt()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="">int()</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>3. How do you write a comment in JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for=""># This is a comment</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label for="">!-- This is a comment --</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label for="">// This is a comment</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D">
+                        <label for="">/* This is a comment */</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>4. Which of the following methods can be used to select an element by its ID in JavaScript?.</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="">getElementByClassName()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label for="">getElementById()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C">
+                        <label for="">querySelector()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D">
+                        <label for="">getElementsByTagName()</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>5. Which of the following is not a JavaScript data type?.</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="">String</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label for="">Number</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="">Boolean</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="">Character</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
